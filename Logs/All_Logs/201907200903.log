@@ -1,0 +1,10 @@
+2019-07-20 09:03:07,323 - test - INFO - 执行测试用例：查询天气
+2019-07-20 09:03:07,324 - test - INFO - loading url：https://postman-echo.com/time/before
+2019-07-20 09:03:08,694 - test - INFO - request content：{'timestamp': '2016-10-10', 'target': '2017-10-10'}
+2019-07-20 09:03:08,695 - test - INFO - get status code:200
+2019-07-20 09:03:08,695 - test - INFO - response content：{'before': True}
+2019-07-20 09:03:22,257 - test - INFO - 执行测试用例：查询天气
+2019-07-20 09:03:22,259 - test - INFO - loading url：https://postman-echo.com/time/before
+2019-07-20 09:03:23,547 - test - INFO - request content：{'timestamp': '2016-10-10', 'target': '2017-10-10'}
+2019-07-20 09:03:23,547 - test - INFO - get status code:200
+2019-07-20 09:03:23,547 - test - INFO - response content：{'before': True}

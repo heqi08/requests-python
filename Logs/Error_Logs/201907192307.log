@@ -1,0 +1,18 @@
+2019-07-19 23:07:41,569 - test - ERROR - test_weather  - 25 - 测试用例执行出错: 查询天气
+Traceback (most recent call last):
+  File "/Applications/PyCharm CE.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 832, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: None != 'Success !'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/qihe/Downloads/Learning/homework/python+requests/TestCase/test_weather.py", line 21, in test_weather
+    test2 = self.assertEqual(message, 'Success !')
+  File "/Applications/PyCharm CE.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: None != Success !

@@ -1,0 +1,23 @@
+2019-07-19 23:06:24,020 - test - INFO - 执行测试用例：查询天气
+2019-07-19 23:06:24,021 - test - INFO - loading url：https://www.sojson.com/open/api/weather/json.shtml
+2019-07-19 23:06:24,173 - test - INFO - request content：{'timestamp': '2016-10-10', 'target': '2017-10-10'}
+2019-07-19 23:06:24,173 - test - INFO - get status code:403
+2019-07-19 23:06:24,174 - test - INFO - response content：{'code': '40310011', 'msg': 'invalid User-Agent header'}
+2019-07-19 23:06:24,174 - test - ERROR - 测试用例执行出错: 查询天气
+Traceback (most recent call last):
+  File "/Applications/PyCharm CE.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 832, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 403 != 200
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/qihe/Downloads/Learning/homework/python+requests/TestCase/test_weather.py", line 20, in test_weather
+    test1 = self.assertEqual(status_code, 200)
+  File "/Applications/PyCharm CE.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 403 != 200

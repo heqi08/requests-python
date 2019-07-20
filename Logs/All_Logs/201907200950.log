@@ -1,0 +1,12 @@
+2019-07-20 09:50:30,036 - test - INFO - Execution case：timestamp before target
+2019-07-20 09:50:31,232 - test - INFO - request content：{'timestamp': '2016-10-10', 'target': '2017-10-10'}
+2019-07-20 09:50:31,232 - test - INFO - get status code:200
+2019-07-20 09:50:31,233 - test - INFO - response content：{'before': True}
+2019-07-20 09:50:31,234 - test - INFO - Execution case：timestamp after target
+2019-07-20 09:50:32,515 - test - INFO - request content：{'timestamp': '2018-10-10', 'target': '2017-10-10'}
+2019-07-20 09:50:32,515 - test - INFO - get status code:200
+2019-07-20 09:50:32,515 - test - INFO - response content：{'before': False}
+2019-07-20 09:50:32,518 - test - INFO - Execution case：timestamp equal target
+2019-07-20 09:50:34,563 - test - INFO - request content：{'timestamp': '2018-10-10', 'target': '2017-10-10'}
+2019-07-20 09:50:34,564 - test - INFO - get status code:200
+2019-07-20 09:50:34,564 - test - INFO - response content：{'before': False}

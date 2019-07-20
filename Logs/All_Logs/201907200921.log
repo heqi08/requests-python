@@ -1,0 +1,4 @@
+2019-07-20 09:21:24,834 - test - INFO - Execution case：timestamp before target
+2019-07-20 09:21:25,987 - test - INFO - request content：{'timestamp': '2016-10-10', 'target': '2017-10-10'}
+2019-07-20 09:21:25,987 - test - INFO - get status code:200
+2019-07-20 09:21:25,988 - test - INFO - response content：{'before': True}
